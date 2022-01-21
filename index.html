@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- css -->
+   <link rel="stylesheet" href="style.css">
+   <!-- font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap" rel="stylesheet">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   <!-- favicon -->
+   <link rel="shortcut icon" href="/images/logo jepang.png" type="image/x-icon">
+   <title>Portofolio Frontend Developer</title>
+</head>
+
+<body>
+   <div class="background overflow-hidden">
+      <button type="button" class=" btn-floating btn-lg" id="btn-back-to-top">
+         <i class="fas fa-chevron-up"></i>
+      </button>
+      <div class="background-svg1 position-absolute snap">
+         <svg width="1440" height="976" viewBox="0 0 1440 976" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="Vector-bg">
+               <path id="Vector-bg1"
+                  d="M206 880.576C66 859.309 -75 630.627 -128 518.944V-5H1440V640.324C1397 691.149 1189.5 640.324 1071.5 659.383C982.835 673.705 973 770.23 745 770.23C578 770.23 381 907.159 206 880.576Z"
+                  fill="url(#paint0_linear)" />
+               <path id="Vector-bg2"
+                  d="M206 857.656C66 836.885 -75 613.537 -128 504.459V-5H1440V623.008C1397 672.648 1189.5 623.008 1071.5 641.623C982.835 655.61 973 749.884 745 749.884C578 749.884 381 883.619 206 857.656Z"
+                  fill="url(#paint1_linear)" />
+               <path id="Vector-bg3"
+                  d="M1118 972.288C1258 949.231 1387.33 705.097 1440.33 584.013V7.79869L-116 4V711.811C-72.9996 766.916 134.5 711.811 252.5 732.476C341.165 748.002 351 852.654 579 852.654C746 852.654 943 1001.11 1118 972.288Z"
+                  fill="url(#paint2_linear)" />
+               <path id="Vector-bg4"
+                  d="M1118 866.788C1258 846.837 1399 632.302 1452 527.528V-4H-116V641.399C-73 689.081 134.5 641.399 252.5 659.28C341.165 672.715 351 763.269 579 763.269C746 763.269 943 891.726 1118 866.788Z"
+                  fill="url(#paint3_linear)" />
+            </g>
+            <defs>
+               <linearGradient id="paint0_linear" x1="620" y1="-102" x2="630.566" y2="902.143"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#D1FDFF" />
+                  <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                  <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+               </linearGradient>
+               <linearGradient id="paint1_linear" x1="620" y1="-102" x2="630.079" y2="878.725"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#D1FDFF" />
+                  <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                  <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+               </linearGradient>
+               <linearGradient id="paint2_linear" x1="704" y1="-93" x2="691.58" y2="995.649"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#D1FDFF" />
+                  <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                  <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+               </linearGradient>
+               <linearGradient id="paint3_linear" x1="704" y1="-55" x2="694.7" y2="887.033"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#D1FDFF" />
+                  <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                  <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+               </linearGradient>
+            </defs>
+         </svg>
+      </div>
+
+      <div class="snap-parent">
+         <div class="container-nav snap">
+            <!-- *=====================navbar================== -->
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between">
+               <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-decoration-none "
+                  style="color: #6F3F07;">
+                  <img id="logo" src="images/logo jepang.png" alt="logo">
+               </a>
+
+               <ul class="navbar nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 fw-normal">
+                  <li><a href="#about" class="nav-link px-2">About</a></li>
+                  <li><a href="#project" class="nav-link px-2">Project</a></li>
+                  <li><a href="#contact" class="nav-link px-2">Contact</a></li>
+               </ul>
+
+               <div class="col-md-3 text-end button-hire">
+                  <div class="box-3">
+                     <a href="#contact">
+                        <div class=" btn btn-three">
+                           <span style="color: #6F3F07; text-decoration: none; padding: 5px 25px;">Hire
+                              Me</span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </header>
+         </div>
+
+         <!-- *===================hero===================== -->
+         <div class="hero d-flex flex-column justify-content-center text-center snap"
+            style="width: 100%; height: 100vh; z-index: -1; ">
+            <h1 class="display-5 fw-lighter" style="color: #6F3F07;">Hi... I'm Novia</h1>
+            <div class="col-lg-6 mx-auto" style="color: #6F3F07;">
+               <h1 class="mb-4 mt-2 fw-lighter title-bold"> <span class="fw-bold">a Front-End Web Developer</span>
+               </h1>
+               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mt-5">
+                  <div class="box-3">
+                     <a href="#contact">
+                        <div class="p-3 btn btn-three">
+                           <span style="color: #6F3F07; text-decoration: none; padding:0 50px;">Let's
+                              Work
+                              Together</span>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+         <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_adusoacp.json"  background="transparent"  speed="1"  style="width: 150px; height: 150px;"  loop  autoplay></lottie-player>
+
+
+         <!-- !main======================================== -->
+         <main>
+            <!-- *about===================================== -->
+
+            <div id="about" class="snap my-5" style="height: 100vh; width: 100%;">
+               <div class="container ">
+                  <div class="container ">
+                     <div class="py-2">
+                        <div class="row align-items-center g-5 py-5" style="width: 100%; height: 100vh;">
+                           <div class="col-10  col-sm-8 col-lg-6">
+                              <img src="images/my foto portofolio tr fill line.png" class="profile d-block mx-lg-auto img-fluid" alt="profile"
+                                 width="400" height="100">
+                           </div>
+                           <div class="col-lg-6" style="color: #6F3F07;">
+                              <h2 class=" title-bold fw-bold lh-1 mb-5">About</h2>
+                              <p class=" fw-normal">Hi, i am Novia, 19 years old, a student majoring in information
+                                 technology who is enthusiastic and detail oriented Frontend Software Engineer seeking
+                                 an entry-level position to use my skills in coding, design, troubleshooting complex
+                                 problems, and assisting in the timely completion of projects.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <!-- *project============================================== -->
+            <div id="project" class=" snap"
+               style="width: 100%; height: 100vh; background-color: #fff;  backdrop-filter: blur(5px);">
+               <div class="container-project py-4">
+                  <!-- slider========================================= -->
+                  <h2 class=" project title-bold fw-bold lh-1 mb-5 text-center pt-4" style="color: #6F3F07;">Project
+                  </h2>
+                  <!-- start slider -->
+                  <div class="container-slider section ">
+                     <div class=" section mx-auto text-center slider-height-padding ">
+                        <div class=" row justify-content-center">
+                           <div class=" col-lg-10 col-xl-8 align-self-start">
+                              <input class="checkbox frst" type="radio" id="slide-1" name="slider" checked />
+                              <label for="slide-1"></label>
+                              <input class="checkbox scnd" type="radio" name="slider" id="slider-2" />
+                              <label for="slider-2"></label>
+                              <input class="checkbox thrd" type="radio" name="slider" id="slider-3" />
+                              <label for="slider-3"></label>
+                              <input class="checkbox foth" type="radio" name="slider" id="slider-4" />
+                              <label for="slider-4"></label>
+
+                              <ul>
+                                 <li>
+                                    <span><a href="https://novianh.github.io/blog-react/"> FRONT-END BLOG
+                                          REACT</a></span>
+                                 </li>
+                                 <li>
+                                    <span><a href="https://codepen.io/bubu-bibi-baba/pen/xxdQeoK">RESPONSIVE LANDING
+                                          PAGE</a> </span>
+                                 </li>
+                                 <li>
+                                    <span><a href="https://novianh.000webhostapp.com/">CRUD WEBSITE W/ PHP &
+                                          BT5</a></span>
+                                 </li>
+                                 <li>
+                                    <span><a href="https://codepen.io/bubu-bibi-baba/pen/GRmxOmy">TRIBUTE PAGE
+                                          FREECODECAMP</a></span>
+                                 </li>
+                              </ul>
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end slider -->
+            </div>
+
+            <!--* contact -->
+            <div id="contact" class="snap">
+               <div class="container-contact" style="z-index: 2; color: #6F3F07;">
+                  <h2 class="title-bold fw-bold lh-1 mb-5 pt-5 pb-5 text-center" style="color: #6F3F07;">Contact</h2>
+                  <form action="https://formsubmit.co/novianurhamidah10@gmail.com" method="post">
+                     <div class="container form-contact">
+                        <div class="mb-5">
+                           <label for="exampleFormControlInput" class="form-label"><i class="far fa-user"></i>
+                              Name</label>
+                           <input type="text" class="form-control" id="exampleFormControlInput" name="name"
+                              placeholder="Type your name here...">
+                        </div>
+                        <div class="mb-5">
+                           <label for="exampleFormControlInput1" class="form-label"><i class="far fa-envelope"></i>
+                              Email
+                              address</label>
+                           <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+                              placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                           <label for="exampleFormControlTextarea1" class="form-label"><i class="far fa-comment"></i>
+                              Comment</label>
+                           <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
+                              placeholder="I want to ..."></textarea>
+                        </div>
+                        <div class="box-3 d-flex justify-content-end">
+                           <button type="submit">
+                              <div class=" btn btn-three">
+                                 <span style="color: #6F3F07; text-decoration: none; padding: 5px 25px;"> Send
+                                 </span>
+                              </div>
+                           </button>
+                        </div>
+                     </div>
+               </div>
+               </form>
+
+
+               <div class="background-bottom overflow-hidden">
+                  <svg id="vector-bg-bt" width="1440" height="976" viewBox="0 0 1440 976" fill="none"
+                     xmlns="http://www.w3.org/2000/svg">
+                     <g id="Vector-bg-bottom">
+                        <path id="Vector-bg1"
+                           d="M206 880.576C66 859.309 -75 630.627 -128 518.944V-5H1440V640.324C1397 691.149 1189.5 640.324 1071.5 659.383C982.835 673.705 973 770.23 745 770.23C578 770.23 381 907.159 206 880.576Z"
+                           fill="url(#paint0_linear)" />
+                        <path id="Vector-bg3"
+                           d="M206 857.656C66 836.885 -75 613.537 -128 504.459V-5H1440V623.008C1397 672.648 1189.5 623.008 1071.5 641.623C982.835 655.61 973 749.884 745 749.884C578 749.884 381 883.619 206 857.656Z"
+                           fill="url(#paint1_linear)" />
+                        <path id="Vector-bg2"
+                           d="M1118 972.288C1258 949.231 1387.33 705.097 1440.33 584.013V7.79869L-116 4V711.811C-72.9996 766.916 134.5 711.811 252.5 732.476C341.165 748.002 351 852.654 579 852.654C746 852.654 943 1001.11 1118 972.288Z"
+                           fill="url(#paint2_linear)" />
+                        <path id="Vector-bg4"
+                           d="M1118 866.788C1258 846.837 1399 632.302 1452 527.528V-4H-116V641.399C-73 689.081 134.5 641.399 252.5 659.28C341.165 672.715 351 763.269 579 763.269C746 763.269 943 891.726 1118 866.788Z"
+                           fill="url(#paint3_linear)" />
+                     </g>
+                     <defs>
+                        <linearGradient id="paint0_linear" x1="620" y1="-102" x2="630.566" y2="902.143"
+                           gradientUnits="userSpaceOnUse">
+                           <stop stop-color="#D1FDFF" />
+                           <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                           <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear" x1="620" y1="-102" x2="630.079" y2="878.725"
+                           gradientUnits="userSpaceOnUse">
+                           <stop stop-color="#D1FDFF" />
+                           <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                           <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+                        </linearGradient>
+                        <linearGradient id="paint2_linear" x1="704" y1="-93" x2="691.58" y2="995.649"
+                           gradientUnits="userSpaceOnUse">
+                           <stop stop-color="#D1FDFF" />
+                           <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                           <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+                        </linearGradient>
+                        <linearGradient id="paint3_linear" x1="704" y1="-55" x2="694.7" y2="887.033"
+                           gradientUnits="userSpaceOnUse">
+                           <stop stop-color="#D1FDFF" />
+                           <stop offset="0.506486" stop-color="#DFF2DC" stop-opacity="0.767146" />
+                           <stop offset="1" stop-color="#FDDB92" stop-opacity="0.27" />
+                        </linearGradient>
+                     </defs>
+                  </svg>
+               </div>
+            </div>
+         </main>
+         <!-- !footer -->
+         <footer class="snap">
+            <div class="title-bold thank d-flex justify-content-center align-items-center "
+               style="z-index: 50; position: relative; height: 50vh; width: 100%; color: #6F3F07;">
+               <div class="text-center">
+                  <h1>" Thanks a Lot "</h1>
+                  <p>more about me</p>
+                  <h1><a class="text-decoration-none icon" href="https://www.instagram.com/fe_nvi/"
+                        style="color: #6F3F07;" data-toggle="tooltip" data-placement="bottom"
+                        title="instagram: fe_nvi"><i class="fab fa-instagram-square"></i></a>
+                     <a class="icon" href="https://github.com/novianh" style="color: #6F3F07;" data-toggle="tooltip"
+                        data-placement="bottom" title="Github: novianh"><i class="fab fa-github-square"></i></a>
+                     <a class="icon" href="#contact" style="color: #6F3F07;" data-toggle="tooltip"
+                        data-placement="bottom" title="Email: novianurhamidah10@gmail.com"><i
+                           class="fas fa-envelope-square"></i></a>
+                     <a class="icon" href="https://www.linkedin.com/in/novia-nur-hamidah-25b198173/"
+                        style="color: #6F3F07;" data-toggle="tooltip" data-placement="bottom"
+                        title="Linkedin: Novia Nur hamidah"><i class="fab fa-linkedin"></i></a>
+                  </h1>
+               </div>
+            </div>
+            <ul class="content nav justify-content-center border-bottom pb-3 mb-2">
+               <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+               <li class="nav-item"><a href="#about" class="nav-link px-2 text-muted">About</a></li>
+               <li class="nav-item"><a href="#project" class="nav-link px-2 text-muted">Project</a></li>
+               <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+            <a href="/" class="d-flex align-items-center justify-content-center text-decoration-none "
+               style="color: #6F3F07;">
+               <img id="logo" class="logo-bottom" src="images/logo jepang.png" alt="logo">
+            </a>
+         </footer>
+      </div>
+   </div>
+
+
+
+   <!-- Bootstrap JavaScript Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- jquery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- lokal -->
+   <script src="app.js"></script>
+
+</body>
+
+</html>
